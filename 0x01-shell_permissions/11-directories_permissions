@@ -1,2 +1,2 @@
 #!/bin/bash
-mldir -m 751 my_dir
+chmod -R +x .
