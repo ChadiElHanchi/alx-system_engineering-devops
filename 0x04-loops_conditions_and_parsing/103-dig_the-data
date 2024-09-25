@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Assuming the Apache log file is named 'access.log', change the filename if needed
+awk -F' ' '{ print $1, $9 }' apache-access.log | sort | uniq -c | sort -rn
